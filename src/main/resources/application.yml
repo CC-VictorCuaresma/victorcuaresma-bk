@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: victor-cuaresa
+  data:
+    mongodb:
+      uri: mongodb+srv://${MONGO_USER:michaellibarra}:${MONGO_PASSWORD:l85YoE5yDyZBXYzG}@${MONGO_HOST:cluster0.qgwrum8.mongodb.net}/${MONGO_DB:sunat}?retryWrites=true&w=majority&appName=Cluster0
+      database: sunat
+      auto-index-creation: true
+
+# Configuración del servidor
+server:
+  port: 8080
+
+# Configuración de la API externa
+api:
+  ruc:
+    base-url: https://dniruc.apisperu.com/api/v1
+    token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Im1pY2hhZWxsLmliYXJyYUB2YWxsZWdyYW5kZS5lZHUucGUifQ.g06VWXFGCGt1fYra5VT6_WtOlmBCqY8esWCpYd705zc
+
+# Configuración de logging
+logging:
+  level:
+    pe.edu.vallegrande.victorcuaresa: DEBUG
+    org.springframework.data.mongodb: DEBUG
