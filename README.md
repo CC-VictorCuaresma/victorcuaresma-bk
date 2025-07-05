@@ -1,4 +1,4 @@
-# RUC API - Victor Cuaresa
+# RUC API - Victor Cuaresma
 
 API para gestionar consultas de RUC con integración a la API de SUNAT y MongoDB.
 
@@ -72,7 +72,7 @@ GET http://localhost:8080/api/ruc/20131312955
 
 ```
 src/main/java/pe/edu/vallegrande/victorcuaresa/
-├── VictorCuaresaApplication.java
+├── VictorCuaresmaApplication.java
 ├── config/
 │   └── WebClientConfig.java
 ├── model/
@@ -93,8 +93,8 @@ src/main/java/pe/edu/vallegrande/victorcuaresa/
 
 ```yaml
 # MongoDB
-MONGO_USER: michaellibarra
-MONGO_PASSWORD: l85YoE5yDyZBXYzG
+MONGO_USER: 
+MONGO_PASSWORD: 
 MONGO_HOST: cluster0.qgwrum8.mongodb.net
 MONGO_DB: sunat
 
