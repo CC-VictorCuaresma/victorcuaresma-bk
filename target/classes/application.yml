@@ -3,7 +3,7 @@ spring:
     name: victor-cuaresa
   data:
     mongodb:
-      uri: mongodb+srv://${MONGO_USER:michaellibarra}:${MONGO_PASSWORD:l85YoE5yDyZBXYzG}@${MONGO_HOST:cluster0.qgwrum8.mongodb.net}/${MONGO_DB:sunat}?retryWrites=true&w=majority&appName=Cluster0
+      uri: mongodb+srv://${MONGO_USER:manu}:${MONGO_PASSWORD:manu2005}@${MONGO_HOST:cluster0.w1ywt.mongodb.net}/${MONGO_DB:sunat}?retryWrites=true&w=majority&appName=Cluster0
       database: sunat
       auto-index-creation: true
 
@@ -15,7 +15,7 @@ server:
 api:
   ruc:
     base-url: https://dniruc.apisperu.com/api/v1
-    token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Im1pY2hhZWxsLmliYXJyYUB2YWxsZWdyYW5kZS5lZHUucGUifQ.g06VWXFGCGt1fYra5VT6_WtOlmBCqY8esWCpYd705zc
+    token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InltbGdwdGFpQGdtYWlsLmNvbSJ9.6hMFltbp_Ujg1ZcWMf5ZtP9NayNs8cyu4FUCxwCmfRI
 
 # Configuración de logging
 logging:
